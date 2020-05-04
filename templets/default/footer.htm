@@ -1,0 +1,28 @@
+<footer id="footer">
+  <div class="container wow fadeInUp">
+    <div class="footer_left">
+      <nav id="footnav">
+        <ul>
+          <li><a href='/'>首页</a></li>
+          {dede:channel type='top' currentstyle="
+          <li><a href='~typelink~' class='thisclass'>~typename~</a></li>
+          "}
+          <li>><a href='[field:typelink/]'>[field:typename/]</a></li>
+          {/dede:channel}
+        </ul>
+      </nav>
+      <div class="f_contact"> <span>联系电话：{dede:global.cfg_tel/}</span> <span>邮箱：{dede:global.cfg_yx/}</span> <span>地址：{dede:global.cfg_add/}</span> </div>
+      <div id="copy_txt">{dede:global.cfg_powerby/} {dede:global.cfg_beian/}&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.dede58.com/" target="_blank"  title="织梦58">技术支持</a>：<a href="http://www.dede58.com/" target="_blank"  title="织梦58">织梦58</a></div>
+    </div>
+    <div class="footer_right">
+      <div class="wechat"><img src='/skin/images/erweima.png' width='92' height='92' alt=''></div>
+    </div>
+  </div>
+</footer>
+<div class="blank55"></div>
+<div id="toolbar" class="layout text-center">
+  <div class="col-xs-3"><a href="/"><span class="icon-home"></span>首页</a></div>
+  <div class="col-xs-3"><a href="tel:{dede:global.cfg_tel/}"><span class="icon-phone"></span>电话</a></div>
+  <div class="col-xs-3"><a href="sms:{dede:global.cfg_tel/}"><span class="icon-envelope-o"></span>短信</a></div>
+  <div class="col-xs-3">{dede:type typeid='10'} <a href="[field:typelink/]"><span class="icon-user"></span>联系</a>{/dede:type} </div>
+</div>

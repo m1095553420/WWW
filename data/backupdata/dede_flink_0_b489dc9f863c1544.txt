@@ -1,0 +1,5 @@
+INSERT INTO `dede_flink` VALUES('10','1','http://www.eyoucms.com/','企业建站系统','','','','1500797641','1','2');
+INSERT INTO `dede_flink` VALUES('12','1','http://www.eyoucms.com/','易优CMS','','','','1500797663','1','2');
+INSERT INTO `dede_flink` VALUES('11','1','http://www.yiyongtong.com/','小程序','','','','1500797652','1','2');
+INSERT INTO `dede_flink` VALUES('13','1','http://www.sucai58.com/','建站素材','','','','1500797673','1','2');
+INSERT INTO `dede_flink` VALUES('14','1','http://www.aitecms.com/','企业网站模板','','','','1500797686','1','2');

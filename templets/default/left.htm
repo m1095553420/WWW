@@ -1,0 +1,30 @@
+<div id="left">
+  <div class="left_list">
+    <div class="left_top">
+      <h3>产品中心</h3>
+    </div>
+    <div class="left_con">
+      <div class="type_list">
+        <ul>
+          {dede:channel type='son' typeid='2' currentstyle="
+          <li class='first_cat'><a href='~typelink~'>~typename~</a></li>
+          "}
+          <li class='first_cat'><a href='[field:typeurl/]'>[field:typename/]</a></li>
+          {/dede:channel}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="left_list left_contact">
+    <div class="left_top">
+      <h3>联系我们</h3>
+    </div>
+    <div class="left_con	left_contact_con">
+      <p> <strong><span style="color:#E53333;">{dede:global.cfg_webname/}</span></strong> </p>
+      <p> <span>电话：</span><span style="line-height:1.5;">{dede:global.cfg_tel/}</span><span><br />
+        </span> </p>
+      <p> <span>邮箱：{dede:global.cfg_yx/}&nbsp;</span> </p>
+      <p> <span>地址：{dede:global.cfg_add/}</span> </p>
+    </div>
+  </div>
+</div>

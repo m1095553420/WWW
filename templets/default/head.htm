@@ -1,0 +1,42 @@
+<header id="header">
+  <div id="top">
+    <div class="container">
+      <div class="welcome"> {dede:global.cfg_gg/}</div>
+      <div class="top_right"> <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin={dede:global.cfg_qq/}&site=qq&menu=yes"><img border="0" src="/skin/images/qq.png" /></a>
+        <div class="wechat_top"> <a href="javascript:void(0);"><img src="/skin/images/wechat.png" /></a>
+          <div class="wechat_top_img wow bounceInDown"><img src='skin/images/erweima.png' width='92' height='92' alt=''></div>
+        </div>
+      </div>
+      <div class="top_right2"> {dede:type typeid='10'} <a href="[field:typelink/]">[field:typename/]</a>{/dede:type} | <a href="javascript:void(0);" onclick="AddFavorite();">加入收藏</a> </div>
+    </div>
+  </div>
+  <div class="container">
+    <div id="logo"><a href="/" title="{dede:global.cfg_webname/}"><img src="/skin/images/20176191057395915 .png" alt="{dede:global.cfg_webname/}" /></a></div>
+    <div id="header_right">
+      <div class="clear"></div>
+      <nav id="navigate">
+        <ul>
+          <li class="first_menu"><a {dede:field name=typeid runphp="yes"}(@me=="")? @me=" class='current' ":@me="";{/dede:field} href='/'>首页</a></li>
+          {dede:channel type='top' currentstyle="
+          <li><a href='~typelink~' class='current'>~typename~</a></li>
+          "}
+          <li><a href='[field:typeurl/]'>[field:typename/]</a></li>
+          {/dede:channel}
+        </ul>
+      </nav>
+    </div>
+    <div class="clear"></div>
+    <div class="mobile_menu"> <a class="menu_btn"><i></i></a>
+      <nav id="menu" style="display:none;">
+        <ul>
+          <li><a href='/'>首页</a></li>
+          {dede:channel type='top' currentstyle="
+          <li><a href='~typelink~' class='thisclass'>~typename~</a></li>
+          "}
+          <li><a href='[field:typeurl/]'>[field:typename/]</a></li>
+          {/dede:channel}
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,18 @@
+INSERT INTO `dede_uploads` VALUES('1','1','幻灯1','/uploads/allimg/170723/1-1FH3143I50-L.jpg','1','0','0','0','162550','1500791855','1');
+INSERT INTO `dede_uploads` VALUES('2','4','合装系列','/uploads/allimg/170723/1-1FH3144K60-L.jpg','1','0','0','0','9166','1500792476','1');
+INSERT INTO `dede_uploads` VALUES('3','5','大礼系列','/uploads/allimg/170723/1-1FH31449470-L.jpg','1','0','0','0','5852','1500792587','1');
+INSERT INTO `dede_uploads` VALUES('4','6','小礼系列','/uploads/allimg/170723/1-1FH31450320-L.png','1','0','0','0','34146','1500792632','1');
+INSERT INTO `dede_uploads` VALUES('5','7','系列二类1','/uploads/allimg/170723/1-1FH31451400-L.jpg','1','0','0','0','9166','1500792700','1');
+INSERT INTO `dede_uploads` VALUES('6','8','系列二类2','/uploads/allimg/170723/1-1FH31453000-L.jpg','1','0','0','0','5852','1500792780','1');
+INSERT INTO `dede_uploads` VALUES('7','9','酒店厨房','/uploads/allimg/170723/1500093313-0.jpg','1','300','300','0','47201','1500793210','1');
+INSERT INTO `dede_uploads` VALUES('8','10','网吧公共场所','/uploads/allimg/170723/150039C64-0.jpg','1','360','360','0','47927','1500793240','1');
+INSERT INTO `dede_uploads` VALUES('9','11','KTV休闲娱乐场所','/uploads/allimg/170723/15011J648-0.jpg','1','500','500','0','76680','1500793278','1');
+INSERT INTO `dede_uploads` VALUES('10','12','沐足桑拿会所','/uploads/allimg/170723/1501415D3-0.jpg','1','400','400','0','71201','1500793302','1');
+INSERT INTO `dede_uploads` VALUES('11','13','家庭健康呵护','/uploads/allimg/170723/15020B041-0.jpg','1','500','500','0','46559','1500793327','1');
+INSERT INTO `dede_uploads` VALUES('12','14','室内空气净化','/uploads/allimg/170723/15022J120-0.jpg','1','600','600','0','48308','1500793348','1');
+INSERT INTO `dede_uploads` VALUES('13','15','有狐臭怎么办 轻松除臭让你倍感清爽','/uploads/allimg/170723/1-1FH31506030-L.jpg','1','0','0','0','33689','1500793563','1');
+INSERT INTO `dede_uploads` VALUES('14','15','有狐臭怎么办 轻松除臭让你倍感清爽','/uploads/allimg/170723/15060UI2-0.jpg','1','500','707','0','75681','1500793569','1');
+INSERT INTO `dede_uploads` VALUES('15','16','4—7月手足口病高发 儿童用品经常彻底清洗消毒','/uploads/allimg/170723/1-1FH31506200-L.jpg','1','0','0','0','22637','1500793580','1');
+INSERT INTO `dede_uploads` VALUES('16','19','知识贴：化妆的6个正确步骤','/uploads/allimg/170723/15160R646-0.jpg','1','400','500','0','38643','1500794168','1');
+INSERT INTO `dede_uploads` VALUES('17','19','知识贴：化妆的6个正确步骤','/uploads/allimg/170723/15160U424-1.jpg','1','400','500','0','58289','1500794168','1');
+INSERT INTO `dede_uploads` VALUES('18','20','去除身体异味','/uploads/allimg/170723/16121435P-0.jpg','1','500','500','0','51873','1500797535','1');
